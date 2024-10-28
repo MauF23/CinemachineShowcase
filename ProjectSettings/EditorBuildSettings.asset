@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/StarterAssets/ThirdPersonController/Scenes/MainShowcase.unity
+    guid: 38c58320f2b46e744a7c602ebf802fef
   m_configObjects: {}
