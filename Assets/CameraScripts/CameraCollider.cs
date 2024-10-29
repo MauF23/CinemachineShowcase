@@ -6,10 +6,17 @@ using UnityEngine.Events;
 
 public class CameraCollider : MonoBehaviour
 {
+	[Tooltip("si la cámara cambia en Start")]
 	public bool changeOnStart = false;
+
+	[Tooltip("si la cámara cambia en TriggerEnter")]
 	public bool changeOnEnter = true;
+
+	[Tooltip("si la cámara cambia en TriggerExit")]
 	public bool changeOnExit = false;
 
+
+	[Tooltip("el id/prioridad de la cámara a cambiar, con la posibilidad de especificar delay y evento al terminar el cambio")]
 	public CameraId cameraToSwitchStart, cameraToSwitchEnter, cameraToSwitchExit;
 	private CameraManager cameraManager;
 
